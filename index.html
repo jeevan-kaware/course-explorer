@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    overflow-x:hidden;
+    line-height:1.7;
+    background:#f7f8fc;
+}
+
+
+.navbar{
+    width:100%;
+    height:75px;
+    background:#1e293b;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:1000;
+    padding:0 20px;
+}
+
+.menu-icon{
+    position:absolute;
+    left:20px;
+    top:50%;
+    transform:translateY(-50%);
+    font-size:32px;
+    cursor:pointer;
+    color:#fff;
+}
+
+.navbar h2{
+    margin:0;
+    font-size:40px;
+    font-weight:bold;
+    text-align:center;
+}
+.menu-list{
+    display:none;
+    width:100%;
+    background:#2d3748;
+}
+
+.menu-list a{
+    display:block;
+    padding:15px 20px;
+    color:#ffffff;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:500;
+    border-bottom:1px solid rgba(255,255,255,0.15);
+    transition:0.3s;
+}
+
+.menu-list a:hover{
+    background:#475569;
+    color:#ffffff;
+}
+.menu-list a{
+
+padding:12px;
+
+display:block;
+
+color:white;
+
+font-size:17px;
+}
+.main{
+    width:95%;
+    max-width:1200px;
+    margin:40px auto;
+    padding:20px;
+}
+
+section{
+    width:95%;
+    max-width:1200px;
+    margin:auto;
+}
+
+h2,h3,p,ul{
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+    .menu-list a:hover {
+      background-color: #555;
+    }
+    .navbar .search{
+        position: relative;
+        left: 500px;
+    }
+   
+    .edulist a {
+      font-size: 18px;
+      padding: 33px;
+      
+    }
+    .science{
+    margin:25px auto;
+    display:block;
+    width:320px;
+    max-width:90%;
+    padding:16px;
+    font-size:20px;
+    border:none;
+    border-radius:12px;
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+    color:#fff;
+    cursor:pointer;
+    transition:.3s;
+}
+.science:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 10px 20px rgba(0,0,0,.2);
+}
+   footer{
+
+width:100%;
+
+background:#111827;
+
+color:white;
+
+margin-top:50px;
+}
+img{
+
+max-width:100%;
+
+height:auto;
+
+display:block;
+}
+@media(max-width:992px){
+
+.navbar{
+
+padding:15px 20px;
+}
+
+.main{
+
+padding:20px;
+}
+
+.science{
+
+width:100%;
+left:0;
+position:relative;
+}
+}
+@media(max-width:768px){
+
+.navbar{
+    height:65px;
+    padding:0 15px;
+}
+
+.menu-icon{
+    left:15px;
+    font-size:28px;
+}
+
+.navbar h2{
+    font-size:28px;
+}
+
+.main,
+section{
+    width:95%;
+}
+
+.science{
+    width:100%;
+}
+
+}
+@media(max-width:480px){
+
+.navbar{
+    height:60px;
+}
+
+.menu-icon{
+    left:12px;
+    font-size:26px;
+}
+
+.navbar h2{
+    font-size:22px;
+}
+
+.main{
+    padding:15px;
+}
+
+.science{
+    width:100%;
+    font-size:17px;
+}
+
+}
+body{
+
+font-size:15px;
+}
+  </style>
+  
+</head>
+<body>
+
+  <div class="navbar">
+    <span class="menu-icon" onclick="toggleMenu()">☰</span>
+    <h2>courseExplorer.in</h2>
+    <span class="search-icon" onclick="searchbar()"></span>
+</div>
+  <div id="menuList" class="menu-list">
+    <a href="login.html">Log-in</a>
+    <a href="signup.html">Sign-In</a>
+    <a href="index.html">Home</a>
+     <a href="#Course">Course</a>
+      <a href="#about">about</a>
+       <a href="#Contact">Contact</a>
+  </div>
+  <div class="main">
+    <h2><bold>CourseExplorer.in – Discover the Right Bachelor's Degree for Your Future </bold></h2>
+    <p>Explore comprehensive information on all major Bachelor's degree programs across India.<br>Compare courses, colleges, eligibility, career options, and make informed decisions for your academic journey.<br>
+CourseExplorer.in is your one-stop platform for exploring and comparing all major Bachelor's degree programs offered across India.<br> Whether you're a student in Class 12 wondering what to pursue next, or a parent looking to guide your child, we provide accurate,<br>up-to-date, and easy-to-understand information to help you make the right academic choices.</p>
+<hr>
+<h3>
+  🎓 What you’ll find on CourseExplorer.in:
+</h3>
+<ul>
+  <li>Detailed insights on popular courses like B.A., B.Sc., B.Com., B.Tech, BBA, BCA, B.Des., and more</li>
+  <li>Information on eligibility criteria, entrance exams, course duration, and career prospects</li>
+  <li>Lists of top colleges and universities offering each course</li>
+  <li>Guidance on course comparisons, helping you choose what fits your goals</li>
+  <li>Regular updates on admission timelines, cut-offs, and scholarship opportunities</li>
+</ul>
+<p>We aim to simplify the confusing process of course selection by giving students a clear roadmap to plan their higher education journey.<br>Our mission is to empower every student with the right knowledge to build a successful career from the very first step.
+
+Start exploring now and <br> discover the course that’s made for you — only on CourseExplorer.in!
+<hr>
+</p>
+  </div>
+  <h2>🎯 Select Your Stream – Explore Bachelor's Degrees by Field</h2>
+  <p> Choose the academic stream that matches your interests and career goals.<br>Whether you're passionate about science, commerce, arts, or any professional field, explore degree options designed to shape your future.
+
+</p>
+<hr>
+<section id="Course">
+<h2>
+  🔬 Science Stream – For the Curious Minds & Innovators</h2>
+<p>Discover degrees that dive deep into the world of science, research, technology, and health.</p>
+<a href="science.html"><button class="science">Science Stream</button><br><br></a>
+  <h2>💼 Commerce Stream – For Future Business Leaders & Finance Experts</h2>
+<p>Explore courses that build strong foundations in finance, management, and economics</p>
+<a href="commerce.html"><button class="science"> Commerce Stream</button><br><br></a>
+<h2>🎨 Arts & Humanities – For Creative Thinkers & Social Explorers</h2>
+<p>Choose from a wide range of subjects that shape society, culture, media, and human understanding.</p>
+
+<a href="arts.html">
+<button class="science">Arts & Humanities Stream</button><br><br></a>
+
+</section>
+<hr>
+  <br>
+  <br>
+  <br>
+
+<!-- Footer -->
+<footer style="background: #222; color: white; padding: 40px 20px; font-family: 'Poppins', sans-serif;">
+    <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between;">
+        
+        <!-- About Section -->
+         <section id="about">
+        <div style="flex: 1 1 300px; margin: 10px;">
+            <h3>About Us</h3>
+            <p>We are dedicated to delivering high-quality services and exceptional customer support. Our mission is to provide innovative solutions that help our clients grow and succeed.</p>
+        </div>
+</section>
+        <!-- Contact Info -->
+         <section id="Contact">
+        <div style="flex: 1 1 300px; margin: 10px;">
+            <h3>Contact Information</h3>
+            <p>📍 V.H.B Colony Achalpur, Amravati</p>
+            <p>📞 9527868499</p>
+            <p>📧 jkaware@gmail.com</p>
+        </div>
+</section>
+        <!-- Social Media -->
+        <div style="flex: 1 1 300px; margin: 10px;">
+            <h3>Follow Us</h3>
+            <p>
+                <a href="#" style="color: white; text-decoration: none;">🔗 Facebook</a><br>
+                <a href="#" style="color: white; text-decoration: none;">📸 Instagram</a><br>
+                <a href="#" style="color: white; text-decoration: none;">💼 LinkedIn</a><br>
+                <a href="#" style="color: white; text-decoration: none;">🐦 Twitter</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Bottom Text -->
+    <div style="text-align: center; margin-top: 20px; font-size: 14px; color: #aaa;">
+        &copy; 2025 YourCompanyName. All rights reserved.
+    </div>
+</footer>
+<script>
+    function toggleMenu() {
+    const menu = document.getElementById("menuList");
+
+    if (menu.style.display === "block") {
+        menu.style.display = "none";
+    } else {
+        menu.style.display = "block";
+    }
+}
+  </script>
+</body>
+</html>
