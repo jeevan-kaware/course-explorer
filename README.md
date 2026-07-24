@@ -38,14 +38,6 @@ It provides a clean, responsive interface with dedicated stream pages, authentic
 
 ---
 
-# 🌐 Live Demo
-
-## 🚀 Live Website
-
-*(Add your live website URL here if deployed.)*
-
----
-
 ## 📂 GitHub Repository
 
 https://github.com/jeevan-kaware/course-explorer.git
