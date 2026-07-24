@@ -1,49 +1,134 @@
+# 🚀 CourseExplorer.in
+
+<div align="center">
+
 # 🎓 CourseExplorer.in
 
-> A simple educational website that helps students explore Bachelor's degree courses based on their academic stream.
+### Stream-Based Course Exploration Website for Class 12 Students
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+<p align="center">
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+
+<img src="https://img.shields.io/badge/Responsive-Website-success?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Mobile-Friendly-blue?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Education-Website-orange?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Frontend-Project-purple?style=for-the-badge"/>
+
+</p>
+
+</div>
 
 ---
 
 # 📖 Overview
 
-CourseExplorer.in is a beginner-friendly educational website designed to help students discover the right Bachelor's degree after completing Class 12.
+CourseExplorer.in is a responsive educational website developed using **HTML, CSS, and JavaScript** to help students explore Bachelor's degree programs after completing Class 12.
 
-The website organizes courses according to three major academic streams:
+The website categorizes degree programs into **Science**, **Commerce**, and **Arts & Humanities** streams, making it easier for students to discover suitable academic paths based on their interests.
 
-- 🔬 Science
-- 💼 Commerce
-- 🎨 Arts & Humanities
+It provides a clean, responsive interface with dedicated stream pages, authentication UI, and educational content designed to simplify career exploration.
 
-Students can explore available degree programs, understand career options, and get basic guidance before choosing a course.
+---
+
+# 🌐 Live Demo
+
+## 🚀 Live Website
+
+*(Add your live website URL here if deployed.)*
+
+---
+
+## 📂 GitHub Repository
+
+https://github.com/jeevan-kaware/course-explorer.git
 
 ---
 
 # ✨ Features
 
-- 📚 Stream-wise course exploration
-- 🔬 Science Stream courses
-- 💼 Commerce Stream courses
-- 🎨 Arts & Humanities courses
-- 📖 Basic information about each degree
-- 🖥️ Responsive design
-- 📱 Mobile Friendly Layout
-- 🍔 Responsive Navigation Menu
-- 🎨 Modern UI
-- 📄 About Section
-- 📞 Contact Section
-- 🔗 Social Media Footer
-- 🔐 Login Page (Frontend UI)
-- 📝 Register Page (Frontend UI)
+## 🎓 Course Exploration
+
+- Stream-wise Course Navigation
+- Science Stream Courses
+- Commerce Stream Courses
+- Arts & Humanities Courses
+- Degree Information
+- Career Guidance Overview
 
 ---
 
-# 🎓 Science Stream Courses
+## 📄 Website Pages
 
-The website includes information about:
+- Home Page
+- Science Stream Page
+- Commerce Stream Page
+- Arts & Humanities Page
+- About Section
+- Contact Section
+- Login Page (Frontend UI)
+- Register Page (Frontend UI)
+
+---
+
+## 📱 User Experience
+
+- Responsive Navigation Menu
+- Mobile Friendly Design
+- Modern User Interface
+- Smooth Navigation
+- Social Media Footer
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Used |
+|------------|------|
+| HTML5 | ✅ |
+| CSS3 | ✅ |
+| JavaScript | ✅ |
+| Responsive Web Design | ✅ |
+| Frontend Development | ✅ |
+
+---
+
+# 🧩 Website Structure
+
+```text
+Home Page
+      ↓
+Stream Selection
+      ↓
+Science / Commerce / Arts
+      ↓
+Course Information
+      ↓
+About & Contact
+```
+
+---
+
+# 🎓 Available Streams
+
+| Stream | Status |
+|---------|--------|
+| Science | ✅ |
+| Commerce | ✅ |
+| Arts & Humanities | ✅ |
+
+---
+
+# 📚 Science Stream Courses
+
+Students can explore:
 
 - B.Sc.
 - B.Sc. (Honours)
@@ -82,7 +167,7 @@ Students can explore:
 
 # 🎨 Arts & Humanities Courses
 
-Available courses include:
+Students can explore:
 
 - Bachelor of Arts (BA)
 - Bachelor of Fine Arts (BFA)
@@ -91,10 +176,9 @@ Available courses include:
 - Bachelor of Education (B.Ed.)
 
 ---
-
 # 📂 Project Structure
 
-```
+```text
 course-explorer
 │
 ├── index.html
@@ -110,98 +194,164 @@ course-explorer
 
 ---
 
-# 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-
----
-
 # 📱 Responsive Design
 
-The website is optimized for:
+The website is fully responsive and optimized for:
 
 - 💻 Desktop
 - 💼 Laptop
-- 📱 Mobile
-- 📟 Tablet
-
----
-
-# 🔮 Future Improvements
-
-Some features are currently designed as frontend UI and can be enhanced in future versions:
-
-- Backend Integration
-- User Authentication
-- Database Connectivity
-- User Registration
-- Login Validation
-- Search Functionality
-- Course Filtering
-- Admin Dashboard
-- Student Dashboard
-- Course Management
-- User Profiles
-- Favorite Courses
-- Career Recommendation System
+- 📱 Mobile Devices
+- 📟 Tablets
 
 ---
 
 # 🚀 Getting Started
 
-Clone the repository
+## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/course-explorer.git
+git clone https://github.com/jeevan-kaware/course-explorer.git
 ```
-
-Go to project folder
 
 ```bash
 cd course-explorer
 ```
 
-Open
+---
 
-```
+## 2️⃣ Run the Project
+
+Simply open the following file in your preferred web browser:
+
+```text
 index.html
 ```
 
-in your browser.
+No additional installation or dependencies are required.
 
 ---
 
 # 📸 Screenshots
 
-You can add screenshots here.
+The following screenshots showcase the core pages and user interface of the website.
 
-- 🏠 Home Page
-- 🔬 Science Page
-- 💼 Commerce Page
-- 🎨 Arts Page
-- 🔐 Login Page
-- 📝 Register Page
+---
+
+## 🏠 Home Page
+
+![Home Page](Screenshots/01-home-page.png)
+
+---
+
+## 🎓 Course Categories
+
+![Course Categories](Screenshots/02-course-categories.png)
+
+---
+
+## 🔬 Science Stream Page
+
+![Science Stream](Screenshots/03-science-page.png)
+
+---
+
+## 👤 Login Page
+
+![Login Page](Screenshots/04-login-page.png)
+
+---
+
+# 🚀 Future Improvements
+
+The project can be extended with the following features:
+
+- Backend Integration using Spring Boot
+- User Authentication & Authorization
+- PostgreSQL Database Integration
+- Search Functionality
+- Course Filtering
+- Student Dashboard
+- Admin Dashboard
+- User Profiles
+- Favorite Courses
+- AI-Based Career Recommendation System
+- Online Admission Portal
+- Course Comparison Feature
+- Career Guidance Chatbot
+
+---
+
+# 💡 Learning Outcomes
+
+This project helped me strengthen my understanding of:
+
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Web Design
+- User Interface Design
+- Website Navigation
+- Frontend Development
+- Mobile-First Design
+- Website Structure & Layout
+- Educational Website Development
+
+---
+# 👨‍💻 Author
+
+**Jeevan Kaware**
+
+Frontend Developer | Java Backend Developer
+
+**GitHub**
+
+https://github.com/jeevan-kaware/course-explorer.git
+
+**LinkedIn**
+
+https://www.linkedin.com/in/jeevan-kaware-080643355/
+
+**Portfolio**
+
+https://smart-portfolio-kappa-eight.vercel.app/
+
+---
+
+# ⭐ If You Like This Project
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+Your support motivates me to continue building more educational and professional web applications.
 
 ---
 
 # 🤝 Contributing
 
-Contributions, suggestions, and improvements are welcome.
+Contributions, suggestions, and improvements are always welcome.
 
-Feel free to fork the repository and submit a pull request.
+If you have ideas to enhance this project, feel free to:
+
+- Fork the repository
+- Create a new feature branch
+- Commit your changes
+- Submit a Pull Request
 
 ---
 
 # 📄 License
 
-This project is created for learning and educational purposes.
+This project is developed for **learning and educational purposes**.
+
+Feel free to use, modify, and extend it for personal learning and academic projects.
 
 ---
 
-# 👨‍💻 Author
+<div align="center">
 
-**Jeevan Kaware**
+## 🎓 Built with HTML, CSS & JavaScript ❤️
 
-If you found this project helpful, don't forget to ⭐ the repository.
+### Helping Students Explore Better Career Opportunities
+
+**Thank you for visiting this repository. Happy Learning! 🚀**
+
+</div>
