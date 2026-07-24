@@ -40,7 +40,7 @@ It provides a clean, responsive interface with dedicated stream pages, authentic
 
 ## 📂 GitHub Repository
 
-https://github.com/jeevan-kaware/course-explorer.git
+https://github.com/jeevan-kaware/course-explorer
 
 ---
 
